@@ -351,7 +351,12 @@ authority > a img {
   animation: slideInFromLeft 0.8s ease-out forwards;
 }
 /* .hero-bg {
-  background-image: url("./img/hero-img.jpg");
+  background: url("./img/hero-img.jpg") !important;
+  background-size: contain !important;
+}
+.section-two {
+  background: url("./img/section-two.jpg") !important;
+  background-size: contain !important;
 } */
 .winners,
 section,

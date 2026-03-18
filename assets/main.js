@@ -144,7 +144,7 @@ slide.innerHTML = `
   <a href="${card.link}" target="_blank" class="block w-full">
     <div
       class="relative overflow-hidden w-full
-             min-h-[140px] sm:min-h-[270px] md:min-h-[250px]
+             min-h-[200px] sm:min-h-[270px] md:min-h-[250px]
              rounded-[20px]
              px-4 py-4 md:px-10 md:py-8
              ${card.gradientDesk ? `md:${card.gradientDesk}` : ""}
@@ -153,10 +153,10 @@ slide.innerHTML = `
     >
       <!-- TEXT -->
       <div class="relative z-[2] text-left max-w-[60%] sm:max-w-none flex-1">
-        <p class="font-bold uppercase text-[12px] sm:text-[14px] text-[#d9a445] leading-tight">
+        <p class="font-bold uppercase text-[24px] sm:text-[22px] text-[#d9a445] leading-tight">
           ${card.title}
         </p>
-        <p class="mt-2 text-[11px] sm:text-[12px] leading-[1.35] text-[#fff]">
+        <p class="mt-2 text-[14px] sm:text-[16px] leading-[1.35] text-[#fff]">
           ${card.text}
         </p>
       </div>
@@ -181,7 +181,7 @@ slide.innerHTML = `
         src="${card.img}"
         alt="${card.alt}"
         class="sm:hidden absolute right-[-10px] bottom-[-6px]
-               w-[140px] h-[120px] object-contain z-[1]"
+               w-[140px] h-[120px] object-contain z-[1] "
         loading="lazy"
         decoding="async"
       />
