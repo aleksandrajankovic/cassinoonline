@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: "sport",
       title: "Cashback diário",
-      text: "Receba cashback diariamente conforme sua atividade e nível dentro da plataforma. Os valores são definidos de forma personalizada, de acordo com o seu nível de atividade (GGR) nos últimos 6 meses.",
+      text: "Receba cashback diariamente conforme sua atividade e nível dentro da plataforma. Os valores são definidos de forma personalizada, de acordo com o seu nível de atividade (GGR) nos últimos 6 meses. Consulte T&C.",
       img: "./assets/img/cashback.png",
       alt: "Promo Casino",
       gradientDesk: "bg-[linear-gradient(180deg,rgba(0,0,0,0.75)_0%,rgba(0,0,0,0.55)_40%,rgba(0,0,0,0.15)_100%)]",
