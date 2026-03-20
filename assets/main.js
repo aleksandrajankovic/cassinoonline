@@ -153,7 +153,7 @@ slide.innerHTML = `
     >
       <!-- TEXT -->
       <div class="relative z-[2] text-left max-w-[60%] sm:max-w-none flex-1">
-        <p class="font-bold uppercase text-[24px] sm:text-[22px] text-[#d9a445] leading-tight">
+        <p class="font-bold uppercase text-[22px] sm:text-[22px] text-[#d9a445] leading-tight">
           ${card.title}
         </p>
         <p class="mt-2 text-[14px] sm:text-[16px] leading-[1.35] text-[#fff]">
